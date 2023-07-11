@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="spotify.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar-first">
+                <div class="home">
+                    <i class="fa-solid fa-house fa-house" style="color: #fffefe;"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #a1a1a1;"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="sidebar-second">
+                <header class="library-first">
+                    <div class="library">
+                        <img src="library_icon.png" alt="library">
+                        <div class="name">
+                            <a href="#">
+                                <div>Your Library</div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-plus" style="color: #a1a1a1;"></i>
+                        <i class="fa-solid fa-arrow-right" style="color: #a1a1a1;"></i>
+                    </div>
+                </header>
+                <div class="playlist">
+                    <span class="play">
+                        Playlists
+                    </span>
+                </div>
+                <div class="third-part">
+                    <div class="search1">
+                        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #a1a1a1;"></i>
+
+                    </div>
+                    <div class="content">
+                        <div class="recent">Recents</div>
+                        <div class="select">
+                            <select name="recent" id="re">
+                                <option value=""></option>
+                                <option value="">Recents</option>
+                                <option value="">Recently Added</option>
+                                <option value="">Alphabatical</option>
+                                <option value="">Creator</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="like">
+                    <div class="image">
+                        <img src="like.png" alt="like">
+                    </div>
+                    <div class="liked-songs">
+                        <div>Liked Songs</div>
+
+                        <i class="fa-solid fa-thumbtack" style="color: #76ed35;"></i>
+                        <div class="playlist1">Playlist</div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <div class="first-segment">
+                <header1>
+                    <div class="head-items">
+                        <div class="left-side">
+                            <a href="#">
+                                <div><img src="backward_icon.png" alt="backward"></div>
+                            </a>
+                            <a href="#">
+                                <div><img src="forward_icon.png" alt="forward"></div>
+                            </a>
+
+                        </div>
+                        <div class="right-side">
+                            <a href="#">
+                                <div class="explore">
+                                    Explore Premium
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="install">
+                                    <i class="fa-regular fa-circle-down" style="color: #fafafa;"></i>
+                                    <div>Install App</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="account">
+                                    <i class="fa-regular fa-user" style="color: #f9fafb;"></i>
+
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </header1>
+                <div class="heading">
+                    <h2>
+                        Good Morning
+                    </h2>
+                </div>
+                <div class="grid">
+                    <div class="box">
+                        <img src="hero1.jpg" alt="hero">
+                        <div class="name1">
+                            Daily Mix 3
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="hero2.jpg" alt="hero">
+                        <div class="name1">
+                            Daily Mix 5
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="hero3.jpg" alt="hero">
+                        <div class="name1">
+                            All Time Songs
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="hero4.jpg" alt="hero">
+                        <div class="name1">
+                            Daily Mix 6
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="hero5.jpg" alt="hero">
+                        <div class="name1">
+                            Music Mix
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="hero6.jpg" alt="hero">
+                        <div class="name1">
+                            Release Radar
+                        </div>
+                    </div>
+
+                </div>
+                <div class="heading1">
+                    <div>
+                        <h2>
+                            Musics for you
+                        </h2>
+                    </div>
+                    <div class="showall">Show All</div>
+                </div>
+                <div class="grid1">
+                    <div class="box1">
+                        <img src="card2img.jpeg" alt="image">
+                        <div class="name2">
+                            Mahiye Jinna Sohna
+
+                        </div>
+                        <div class="time">
+                            July 2022. 140min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="card3img.jpeg" alt="image">
+                        <div class="name2">
+                            Mere pass tum ho
+
+                        </div>
+                        <div class="time">
+                            Jan 2023. 60min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="card4img.jpeg" alt="image">
+                        <div class="name2">
+                            After ego na ready
+
+                        </div>
+                        <div class="time">
+                            Aug 2021. 100min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="calmdown.jpg" alt="image">
+                        <div class="name2">
+                            Pop shots
+
+
+                        </div>
+                        <div class="time">
+                            Dec 2023. 180min
+                        </div>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <div>
+                        <h2>
+                            Made for Yashwant sharma
+                        </h2>
+                    </div>
+                    <div class="showall">Show All</div>
+                </div>
+                <div class="grid1">
+                    <div class="box1">
+                        <img src="card1img.jpeg" alt="image">
+                        <div class="name2">
+                            Top 50 Global
+
+                        </div>
+                        <div class="time">
+                            July 2022. 140min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="card5img.jpeg" alt="image">
+                        <div class="name2">
+                            Top Songs Global
+
+                        </div>
+                        <div class="time">
+                            Jan 2023. 60min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="card6img.jpeg" alt="image">
+                        <div class="name2">
+                            Top Songs India
+
+                        </div>
+                        <div class="time">
+                            Aug 2021. 100min
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <img src="spo.jpg" alt="image">
+                        <div class="name2">
+                            Top 100 Spotify
+
+
+                        </div>
+                        <div class="time">
+                            Dec 2023. 180min
+                        </div>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <div>
+                        <h2>
+                            Top Artists
+                        </h2>
+                    </div>
+                    <div class="showall">Show All</div>
+                </div>
+                <div class="grid1">
+                    <div class="box2">
+                        <img src="pritam.jpg" alt="image">
+                        <div class="name2">
+                            Pritam
+
+                        </div>
+                        <div class="time">
+                            Artist
+                        </div>
+
+                    </div>
+                    <div class="box2">
+                        <img src="arijit.jpg" alt="image">
+                        <div class="name2">
+                            Arijit Singh
+
+                        </div>
+                        <div class="time">
+                            Artist
+                        </div>
+
+                    </div>
+                    <div class="box2">
+                        <img src="photo3.jpg" alt="image">
+                        <div class="name2">
+                            Anirudh Ravichander
+
+                        </div>
+                        <div class="time">
+                            Artist
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="photo4.jpg" alt="image">
+                        <div class="name2">
+                            Tanishk Bagchi
+
+
+                        </div>
+                        <div class="time">
+                            Artist
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div id="refferel">
+                        <div class="column">
+                            <p>Company</p>
+                            <div class="list1">
+                                <ul>
+                                    <li>About</li>
+                                    <li>Jobs</li>
+                                    <li>For the Record</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <p>Communities</p>
+                            <div class="list1">
+                                <ul>
+                                    <li>For Artists</li>
+                                    <li>Developers</li>
+                                    <li>Advertising</li>
+                                    <li>Investors</li>
+                                    <li>Vendors</li>
+                                    <li>Spotify for Work</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <p>Useful links</p>
+                            <div class="list1">
+                                <ul>
+                                    <li>Support</li>
+                                    <li>Free Mobile App</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div class="link">
+                            <a href="www.instagram.com">
+                                <i class="fa-brands fa-instagram" style="color: white;"> </i>
+
+
+                            </a>
+                        </div>
+                        <div class="link"><a href="www.facebook.com"><i class="fa-brands fa-facebook"
+                                    style="color: white;"></i></a></div>
+                        <div class="link"><a href="www.youtube.com"><i class="fa-brands fa-youtube"
+                                    style="color: white;"></i></a></div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <div class="footer-link">
+                    <div class="end">
+                        <div>Legal</div>&nbsp &nbsp &nbsp
+                        <div>Privacy Center</div>&nbsp &nbsp &nbsp
+                        <div>Privacy Policy</div>&nbsp &nbsp &nbsp
+                        <div>Cookies</div>&nbsp &nbsp &nbsp
+                        <div>About Ads</div>&nbsp &nbsp &nbsp
+                        <div>Accessibility</div>
+                    </div>
+                    <div class="copyright">
+                        &copy;2023 Spotify AB
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="player">
+            <div class="end-first" id="end">
+
+                <img src="album_picture.jpeg" alt="hero">
+                <div class="play-name">
+                    <div class="best">Best of 2023</div>
+                    <div class="small">Arijit Singh</div>
+                </div>
+
+
+                <div class="logo">
+                    <div class="image123">
+                        <img src="album_icon1.png" alt="album">
+                    </div>
+                    <div class="image123">
+                        <img src="album_icon2.png" alt="album1">
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <!-- <div></div> -->
+                <!-- <div></div> -->
+
+            </div>
+            <div class="end-second" id="end1">
+                <div class="end-second-one">
+                    <div class="final-icon">
+                        <img src="player_icon1.png" alt="icon">
+                    </div>
+                    <div class="final-icon">
+                        <img src="player_icon2.png" alt="icon">
+                    </div>
+                    <div class="play-icon">
+
+                        <img src="player_icon3.png" alt="icon">
+                    </div>
+                    <div class="final-icon">
+                        <img src="player_icon4.png" alt="icon">
+                    </div>
+                    <div class="final-icon">
+                        <img src="player_icon5.png" alt="icon">
+                    </div>
+                </div>
+                <div class="end-second-second">
+                    <div class="timing">
+                        <div>0:00</div>
+                    </div>
+                    <div class="track">
+                        <div class="line">
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="timing">
+                        <div>4:00</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="end-third" id="end2">
+                <div class="sound">
+                    <img src="controls_icon1.png" alt="sound">
+                </div>
+                <div class="sound">
+                    <img src="controld_icon2.png" alt="sound">
+                </div>
+                <div class="sound">
+                    <img src="controls_icon3.png" alt="sound">
+                </div>
+
+                <div class="sound">
+                    <img src="controls_icon5.png" alt="sound">
+                </div>
+                <div class="line1">
+                    <!-- <div class="dot1"></div> -->
+
+                    <input type="range" name="volume" id="volume">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
